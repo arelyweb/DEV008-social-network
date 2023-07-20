@@ -62,7 +62,7 @@ export const inicio = (onNavigate) => {
   right.classList.add('mainContainer__bienvenida__right');
   const logo = document.createElement('img');
   logo.classList.add('mainContainer__bienvenida__right__logo');
-  logo.setAttribute('src', 'img/logoPowempNombre.png');
+  logo.setAttribute('src', '../img/logoPowempNombre.png');
   const containerNombre = document.createElement('div');
   containerNombre.classList.add('mainContainer__bienvenida__nombre');
   const parrfBien = document.createElement('p');
@@ -94,7 +94,7 @@ export const inicio = (onNavigate) => {
   const fotoPerfil = document.createElement('div');
   fotoPerfil.classList.add('mainContainer__bienvenida__fotoPerfil');
   const iconoCircular = document.createElement('img');
-  iconoCircular.setAttribute('src', 'img/iconoCircular.png');
+  iconoCircular.setAttribute('src', '../img/iconoCircular.png');
   iconoCircular.classList.add('mainContainer__bienvenida__fotoPerfil__Imagen');
 
   containerBienvenida.appendChild(fotoPerfil);
