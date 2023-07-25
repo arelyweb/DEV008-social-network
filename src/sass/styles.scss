@@ -461,7 +461,6 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 0;
     font-family: variables.$tp-roboto;
     font-weight: 700;
     font-size: 20px;
@@ -474,10 +473,8 @@ hr {
   }
   &__closeBtn {
     font-family: variables.$tp-roboto;
-    font-weight: 700;
     font-size: 13px;
     padding: 12px 20px;
-    border-radius: 8px;
     background-color: transparent;
     color: variables.$sl-gris;
     border: 0;
@@ -507,7 +504,6 @@ hr {
   height: 80vh;
   flex-direction: column;
   align-items: center;
-  color: rgb(255, 255, 255);
   font-weight: 100;
   color: rgb(255, 255, 255);
 }
@@ -623,7 +619,6 @@ hr {
   align-items: flex-end;
 }
 .alert-content {
-  background-color: rgba(#ff3838, 0.05);
   margin: 0;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -1015,7 +1010,6 @@ padding: 4px;
       display: flex;
       align-items: center;
       justify-content: space-around;
-      border: 0;
       font-family: variables.$tp-roboto;
       font-weight: 700;
       font-size: 15px;
@@ -1029,7 +1023,6 @@ padding: 4px;
     }
     &__closeBtn {
       font-family: variables.$tp-roboto;
-      font-weight: 700;
       font-size: 15px;
       padding: 12px 20px;
       border-radius: 8px;
